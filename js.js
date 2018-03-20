@@ -14,7 +14,6 @@ if(timeleft <= 0) {
 function getRandomImage(imgAr, path) {
     path = path || ''; // default path here
     var num = Math.floor( Math.random() * imgAr.length ) + 1;
-    var img = imgAr[ num ];
     var imgStr = '<img src="' + path + num + '.jpg' + '" alt = "" width="100%">';
     document.write(imgStr); document.close();
     <!--}-->
